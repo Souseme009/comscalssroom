@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: linear-gradient(180deg,#6CD2F9 -30.08%,#3C88EE 100%);
+    font-weight: 400;
+    font-size:16px;
+    height:100vh;
+    position: relative;
+}
+.container{
+    width:450px;
+    height: 80%;
+    position: absolute;
+    box-shadow: 0px 2px 93px -19px rgba(0,0,0,0.15);
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: #fff;;
+    border-radius: 15px;
+}
+h1{
+    font-size:36px;
+    color:#474747;
+    margin:30px 0 45px;
+}
+.row{
+    padding: 0 40px;
+    position:relative;
+
+}
+.row input::placeholder{
+    font-size:16px;
+    color:#AAA;
+    font-family:Montserrat;
+}
+input{
+width:100%;
+background-color: #fff;
+box-shadow: 0px 7px 33px -4px rgba(0,0,0.14);
+border-radius: 34px;
+border:none;
+outline:none;
+padding:20px 25px;
+}
+input.icon{
+    font-size:35px;
+    color:#fff;
+    background-color: #5CB85C;
+    width:auto;
+    border-radius: 50%;
+    padding:2px 12px;
+    position: relative;
+    right:-42%;
+    top:-50px;
+    border:1px solid transparent;
+    cursor:pointer;
+    transition: all .3s ease;
+
+}
+.icon:hover{
+    color:#5CB85C;
+    background-color: white;
+    border-color: #5CB85C;
+}
+h4{
+    font-size:24px;
+    color:#474747;
+    margin:20px 0 40px;
+}
+.row ul.task_list{
+    list-style: none;
+    text-align: left;
+}
+.row ul.task_list li{
+   background: #ffff;
+   box-shadow: 0px 7px 33px -4px rgba(0,0,0,0.14);
+   border-radius: 34px;
+   margin-bottom: 17px;
+   padding: 20px 25px;
+   font-size:16px;
+   color:#AaA;
+   position: relative;
+}
+
+ .row ul.task_list li span{
+    position:absolute;
+    font-size:22px;
+    right:9px;
+    top:6px;
+    padding:9px 14px;
+    border-radius: 50%;
+    box-shadow:0px 0px 20px -5px rgba(0,0,0.15) ;
+    cursor:pointer;
+    transition: all .3s ease;
+ }
+ .row ul.task_list li span:hover{
+    color:#fff;
+    background: red;
+ }
